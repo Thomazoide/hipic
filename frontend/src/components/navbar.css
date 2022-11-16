@@ -1,0 +1,35 @@
+.bloque{
+    background-color: #20293a;
+}
+
+.navbar-frame{
+    display: table;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar{
+    text-align: center;
+    display: block;
+    background-color: #1b263a;
+    border-style: outset;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 15px 15px 15px 15px;
+}
+
+.nav-a{
+    color:chartreuse;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-a:hover{
+    color: white;
+    cursor: pointer;
+    scale: 103%;
+}
+
+.home-content{
+    text-align: center;
+}
