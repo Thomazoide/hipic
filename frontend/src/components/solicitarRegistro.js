@@ -11,7 +11,7 @@ function SolicitarRegistro(){
     return(
         <div className="bloque">
             <div className="cabecera">
-                <h1 className="logo"> <img src={logo} className="logotipo" onClick={rutearHome}></img></h1>
+                <h1 className="logo"> <img src={logo} className="logotipo" onClick={rutearHome} alt="img"></img></h1>
             </div>
             <div className="cuerpo">
                 <form className="formulario">

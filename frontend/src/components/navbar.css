@@ -3,10 +3,10 @@
 }
 
 .navbar-frame{
-    display: table;
+    display: flex;
     text-align: center;
     align-items: center;
-    margin-left: 32%;
+    justify-content: center;
 }
 
 .navbar{
@@ -14,9 +14,8 @@
     display: block;
     background-color: #1b263a;
     border-style: outset;
-    border-radius: 8px;
-    max-width: 1000px;
-    margin: 15px 15px 15px 15px;
+    border-radius: 15px;
+    max-width: 620px;
 }
 
 .nav-a{
@@ -33,4 +32,17 @@
 
 .home-content{
     text-align: center;
+}
+
+
+
+.boton-cs{
+    max-height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: green;
+    background-color: #1b263a;
+    border-style: outset;
+    border-width: 2px;
 }

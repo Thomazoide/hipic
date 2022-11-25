@@ -1,0 +1,12 @@
+.seccion-input{
+    text-align: center;
+}
+
+.input{
+    max-width: 310px;
+}
+
+.seccion-botones{
+    display: flex;
+    flex-direction: column;
+}

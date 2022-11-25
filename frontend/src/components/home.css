@@ -13,15 +13,27 @@ body{
     margin-bottom: 0px;
 }
 .cabecera{
+    display: flex;
     background-color: #282c34;
-    margin-bottom: 0px;
 }
 .logotipo{
+    float: left;
     background-color: #282c34;
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 0px;
     
+}
+.seccion-boton{
+    width: 100%;
+    margin-right: 25px;
+}
+.boton-cs{
+    float: right;
+}
+.boton-cs:hover{
+    scale: 115%;
+    cursor: pointer;
 }
 
 .logotipo:hover{
@@ -37,12 +49,10 @@ body{
 }
 
 .cuerpo{
-    padding-left: 30%;
-    padding-right: 30%;
+    display: flex;
     margin-top: 0px;
     background-color:#282c34;
-    max-width: 40%;
-    max-height: 100%;
+    justify-content: center;
     text-align: center;
 }
 
@@ -53,7 +63,9 @@ body{
     text-align: center;
     border-style: inset;
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 530px;
+    min-width: 204.39px;
+    min-height: 310.44px;
 }
 
 .fila-botones{
