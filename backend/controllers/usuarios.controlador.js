@@ -14,7 +14,7 @@ usuariosCtrl.getUsuario = async (req, res) => {
             user = objeto
         }
     }
-    res.json(users)
+    res.json(user)
 }
 
 usuariosCtrl.crearUsuario = async (req, res) => {

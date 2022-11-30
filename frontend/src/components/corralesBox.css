@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+.corrales{
+    display: block;
+    background-color: #1a1d24;
+    border-color: beige;
+    border-radius: 15px;
+    border-style: outset;
+    margin-left: 5px;
+}
+.lista-corrales{
+    list-style: none;
+    
+}
+.datos-corral{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7vh;
+}
+.texto-bd{
+    text-decoration:line-through;
+    text-decoration-color: green;
+    
+    text-align: center;
+}
+.data{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
