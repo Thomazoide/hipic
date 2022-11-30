@@ -35,6 +35,7 @@ function SolicitarRegistro(){
         try{
             const res = await axios.post('http://localhost:4000/api/solicitudes/crear-solicitud', objeto)
             console.log(res)
+            alert('solicitud enviada!')
         }catch(error){
             console.error(error);
         }
